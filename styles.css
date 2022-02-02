@@ -11,6 +11,19 @@ img{
   border:4px solid;
   color:#E9C39C  ;
 }
+.bgLine{
+  color:white;
+  border:10px solid #E9C39C ;
+  border-radius:100%;
+  display:inline-block;
+  padding:20px;
+  height: 120vh;
+  width: 100vw;
+  transform: translateX(-0.5%) translateY(-65%);
+  text-align:center;
+  z-index: -1;
+  position: absolute;
+}
 .logo{
   border:none !important;
   height:55px;
@@ -56,6 +69,7 @@ button .rr{
   float:right !important;
 }
 body{
+  overflow-x: hidden;
   background-color:#414659;
   color: white;
 }
@@ -83,19 +97,4 @@ nav{
 .content{
   margin: 0 170px 50px 170px;
 
-}
-
-
-.bgLine{
-  color:white;
-  border:10px solid yellow;
-  border-radius:100%;
-  display:inline-block;
-  padding:20px;
-  height: 120vh;
-  width: 100vw;
-  transform: translateX(-0.5%) translateY(-65%);
-  text-align:center;
-  z-index: -1;
-  position: absolute;
 }
