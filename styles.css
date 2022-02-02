@@ -84,3 +84,18 @@ nav{
   margin: 0 170px 50px 170px;
 
 }
+
+
+.bgLine{
+  color:white;
+  border:10px solid yellow;
+  border-radius:100%;
+  display:inline-block;
+  padding:20px;
+  height: 120vh;
+  width: 100vw;
+  transform: translateX(-0.5%) translateY(-65%);
+  text-align:center;
+  z-index: -1;
+  position: absolute;
+}
