@@ -62,7 +62,7 @@ function pictureChangePrev(){
       else{
         n = n-1;
         if(n==0){
-          document.querySelector(".leftImg").src=imgArray[4];
+          document.querySelector(".leftImg").src=imgArray[3];
         }
         else{
           document.querySelector(".leftImg").src=imgArray[n-1];
