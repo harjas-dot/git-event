@@ -138,7 +138,8 @@ li a {
     border-radius: 15px;
     border: 6px solid;
     border-color: #E9C39C;
-    text-align: center;;
+    text-align: center;
+    height:590px;
 
   }
   .card-img-top{
