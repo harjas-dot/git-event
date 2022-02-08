@@ -1,5 +1,5 @@
 .Container {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
   min-height: 60vh;
@@ -10,6 +10,51 @@
 img {
   border: 4px solid;
   color: #E9C39C;
+}
+
+.navbar-brand img{
+  width: 20%;
+  height: 80%;    
+}
+
+.containerrr{
+  height: 50%;
+  width: 100%;
+  display: flex;    
+  /* flex-direction: row; */
+  padding-top: 0%;
+  /* position: fixed; */
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar{
+  padding: 0px 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav-item a{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight:600px;
+  padding-top: 0%;
+  display: block;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav{
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.nav-item a:hover{
+
+  background-color: #ffdb58;
+  
+
 }
 
 .bgLine {
